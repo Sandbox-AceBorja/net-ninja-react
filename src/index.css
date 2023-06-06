@@ -61,13 +61,24 @@
 .blog-details div {
   margin: 20px 0;
 }
-.blog-details button {
+.blog-details button{
   background: #f1356d;
   color: #fff;
   border: 0;
   padding: 8px;
   border-radius: 8px;
   cursor: pointer;
+}
+.blog-details a{
+  background: #f1356d;
+  color: #fff;
+  border: 0;
+  padding: 7px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  text-decoration: none;
+  margin-right: 10px;
 }
 
 /* create new blog form */
@@ -94,6 +105,38 @@
   display: block;
 }
 .create button {
+  background: #f1356d;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* update blog form */
+.update {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+.update label {
+  text-align: left;
+  display: block;
+}
+.update h2 {
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 30px;
+}
+.update input, .update textarea, .update select {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+.update button {
   background: #f1356d;
   color: #fff;
   border: 0;
